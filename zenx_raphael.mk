@@ -16,16 +16,16 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common ROM stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_raphael
+PRODUCT_NAME := zenx_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-# DerpFest Properties
+# ZenX-OS Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 DERP_BUILDTYPE := Community-Edition
