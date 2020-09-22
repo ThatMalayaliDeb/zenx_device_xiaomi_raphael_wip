@@ -1,0 +1,9 @@
+<audio_effects_conf version="2.0" xmlns="http://schemas.android.com/audio/audio_effects_conf/v2_0">
+    <libraries>
+    <library name="dap" path="libswdap.so"/>
+    </libraries>
+    
+    <effects>
+    <effect name="dap" library="dap" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa"/>
+    </effects>
+</audio_effects_conf>

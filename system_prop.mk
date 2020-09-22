@@ -58,7 +58,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     media.settings.xml=/system/etc/media_profiles_vendor.xml \
-    vendor.mm.enable.qcom_parser=63963135
+    vendor.mm.enable.qcom_parser=63963135 \
+    vendor.audio.dolby.ds2.enabled=true
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
